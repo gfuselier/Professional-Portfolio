@@ -6,9 +6,9 @@
 }
 
 header {
+    display: flex;
     background-color: #79133f;
     color:black;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -50,4 +50,27 @@ nav a {
     position: absolute;
     right: 20px;
     top: 40%;
+}
+
+#about-me {
+    display: flex;
+}
+
+#work {
+    display: flex;
+}
+
+#work-cards {
+    display: flex;
+}
+
+#contact-me {
+    display: flex;
+}
+
+#contact-me ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    min-width: 50%;
 }
