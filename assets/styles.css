@@ -54,10 +54,13 @@ nav a {
 
 #about-me {
     display: flex;
+    justify-content: space-around;
+    margin: 20px;
 }
 
 #work {
     display: flex;
+    margin: 20px;
 }
 
 #work-cards {
@@ -66,6 +69,8 @@ nav a {
 
 #contact-me {
     display: flex;
+    justify-content: flex-start;
+    margin: 20px;
 }
 
 #contact-me ul {
@@ -73,4 +78,12 @@ nav a {
     justify-content: space-between;
     list-style: none;
     min-width: 50%;
+    margin: 40px;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: right;
+    width: 200px;
+    border-right: 3px solid #79133f;
 }
