@@ -68,11 +68,29 @@ nav a {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
+    /*height: 500px;*/
 }
 
 #work-cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin: 0 40px;
+    width: 100%;
+}
+
+.card {
+    border: 1px dotted black;
+}
+
+#project-1 {
+    height: 200px;
+    
+}
+
+#project-2, #project-3, #project-4, #project-5 {
+    height: 100px;
+    
 }
 
 #contact-me {
