@@ -81,16 +81,18 @@ nav a {
 
 .card {
     border: 1px dotted black;
+    margin: 10px;
 }
 
 #project-1 {
     height: 200px;
-    
+    flex-grow: 1;
+    min-width: 50%;
 }
 
 #project-2, #project-3, #project-4, #project-5 {
     height: 100px;
-    
+    min-width: 48%;
 }
 
 #contact-me {
