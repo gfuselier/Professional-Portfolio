@@ -54,17 +54,25 @@ nav a {
 
 #about-me {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin: 20px;
+}
+
+#about-me-text {
+    width: 50%;
+    margin: 0 40px 40px 40px;
+    align-items: flex-start;
 }
 
 #work {
     display: flex;
+    justify-content: flex-start;
     margin: 20px;
 }
 
 #work-cards {
     display: flex;
+    margin: 0 40px;
 }
 
 #contact-me {
