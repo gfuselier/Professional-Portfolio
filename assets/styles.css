@@ -62,14 +62,20 @@ nav a {
 #about-me-text {
     flex-basis: 80%;
     margin: 0 40px 40px 40px;
-    /* align-items: flex-start; */
+}
+
+#about-me-text img {
+    float: left;
+    margin: 0 20px 0 0;
+}
+#about-me-text p {
+    text-align: justify;
 }
 
 #work {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
-    /*height: 500px;*/
 }
 
 #work-cards {
@@ -214,7 +220,7 @@ h2 {
         flex-basis: 100%;
     }
 
-    #contact-me ul {
+   #about-me-text, #contact-me ul {
         text-align: center;
     }
   }
