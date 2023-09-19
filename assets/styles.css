@@ -83,7 +83,13 @@ nav a {
 .card {
     border: 1px dotted black;
     margin: 5px;
+}
+
+.card h3, .card p {
+    background-color:#79133f;
     color: #dfe9ee;
+    width: 30%;
+    min-width: fit-content;
 }
 
 #work-cards #project-1-link {
