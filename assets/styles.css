@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: #dfe9ee;
+}
+
 header {
     display: flex;
     background-color: #79133f;
@@ -70,6 +74,7 @@ nav a {
 }
 #about-me-text p {
     text-align: justify;
+    line-height: 1.5;
 }
 
 #work {
