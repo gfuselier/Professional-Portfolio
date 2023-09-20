@@ -228,5 +228,10 @@ h2 {
    #about-me-text, #contact-me ul {
         text-align: center;
     }
+
+    #about-me-text img {
+        float: none;
+        margin: 10px 0;
+    }
   }
   
