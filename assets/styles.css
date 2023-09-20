@@ -14,10 +14,11 @@ body {
     background-color: var(--light);
 }
 
+/* header styles */
 header {
     display: flex;
     background-color: var(--dark);
-    color:black;
+    color: black;
     justify-content: space-between;
     align-items: center;
 }
@@ -45,7 +46,7 @@ nav a {
 .hero-image {
     height: 200px;
     width: 100%;
-    background-image: url(../assets/images/lilypads.jpg) ;
+    background-image: url(../assets/images/lilypads.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -56,11 +57,22 @@ nav a {
 
 .hero-text {
     background-color: var(--dark);
-    color:var(--light);
+    color: var(--light);
     padding: 10px;
     width: fit-content;
     height: fit-content;
     margin: 50px;
+}
+
+/* About Me styles */
+h2 {
+    flex-basis: 20%;
+    font-size: 200%;
+    text-align: right;
+    width: 200px;
+    border-right: 3px solid var(--dark);
+    padding-right: 10px;
+    color: var(--dark);
 }
 
 #about-me {
@@ -79,11 +91,13 @@ nav a {
     margin: 0 20px 0 0;
     border: 1px solid black;
 }
+
 #about-me-text p {
     text-align: justify;
     line-height: 1.5;
 }
 
+/* Work section styles */
 #work {
     display: flex;
     justify-content: flex-start;
@@ -124,6 +138,7 @@ nav a {
     flex-basis: 49%;
 }
 
+/* Addding background images and styling to cards */
 #project-1 {
     height: 250px;
     background-image: url(./images/digital-marketing-meeting.jpg);
@@ -131,7 +146,10 @@ nav a {
     background-position: center bottom;
 }
 
-#project-2, #project-3, #project-4, #project-5 {
+#project-2,
+#project-3,
+#project-4,
+#project-5 {
     height: 150px;
     background-size: cover;
 }
@@ -156,6 +174,7 @@ nav a {
     background-position: center top;
 }
 
+/* Contact Me section */
 #contact-me {
     display: flex;
     justify-content: flex-start;
@@ -178,19 +197,9 @@ nav a {
     color: black;
 }
 
-h2 {
-    flex-basis: 20%;
-    font-size: 200%;
-    text-align: right;
-    width: 200px;
-    border-right: 3px solid var(--dark);
-    padding-right: 10px;
-    color: var(--dark);
-}
+/* Large smartphones */
+@media screen and (max-width: 768px) {
 
-  
-  /* Large smartphones */
-  @media screen and (max-width: 768px) {
     header,
     nav ul,
     #about-me,
@@ -201,10 +210,10 @@ h2 {
         flex-direction: column;
     }
 
-   h1 {
-    width: 100%;
-    text-align: center;
-   }
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
 
     nav ul {
         align-items: center;
@@ -218,10 +227,10 @@ h2 {
     .hero-image {
         justify-content: center;
     }
-    
+
     .hero-text {
         margin: 20px;
-   }
+    }
 
     h2 {
         flex-basis: 100%;
@@ -235,7 +244,8 @@ h2 {
         flex-basis: 100%;
     }
 
-   #about-me-text, #contact-me ul {
+    #about-me-text,
+    #contact-me ul {
         text-align: center;
     }
 
@@ -243,5 +253,4 @@ h2 {
         float: none;
         margin: 10px 0;
     }
-  }
-  
+}
