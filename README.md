@@ -6,13 +6,20 @@ I built this project as the first iteration of my professional developer portfol
 
 ## Usage
 
-Access my portfolio at [https://gfuselier.github.io/Professional-Portfolio] (https://gfuselier.github.io/Professional-Portfolio)
+Access my portfolio at [https://gfuselier.github.io/Professional-Portfolio](https://gfuselier.github.io/Professional-Portfolio)
 
-![screenshot of the portfolio] (assets/images/portfolio-screenshot.png)
+![screenshot of the portfolio](assets/images/portfolio-screenshot.png)
 
 ## Credits
+Image Attributions:
 
-README Guide: [https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide] (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)   
+Lilypads - [Hanna Skoromna](https://unsplash.com/photos/SQ57KVVBnKE)
+Laptop - [Joshua Reddekopp](https://unsplash.com/photos/SyYmXSDnJ54?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Paper - [Alexander Grey](https://unsplash.com/photos/WqPAETBU2G8)
+Clouds - [Dominik Schroder](https://unsplash.com/photos/FIKD9t5_5zQ)
+Canyon - [Meric Dagli](https://unsplash.com/photos/5FluaSxz_UA)
+
+README Guide: [https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)   
 
 ## License
 
