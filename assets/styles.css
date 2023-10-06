@@ -141,7 +141,7 @@ h2 {
 /* Addding background images and styling to cards */
 #project-1 {
     height: 250px;
-    background-image: url(./images/digital-marketing-meeting.jpg);
+    background-image: url(./images/clouds.jpg);
     background-size: cover;
     background-position: center bottom;
 }
@@ -165,13 +165,13 @@ h2 {
 }
 
 #project-4 {
-    background-image: url(./images/clouds.jpg);
-    background-position: center bottom;
+    background-image: url(./images/antelope\ canyon.jpg);
+    background-position: center top;
 }
 
 #project-5 {
-    background-image: url(./images/antelope\ canyon.jpg);
-    background-position: center top;
+    background-image: url(./images/digital-marketing-meeting.jpg);
+    background-position: center bottom;
 }
 
 /* Contact Me section */
